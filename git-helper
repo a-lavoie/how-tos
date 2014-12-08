@@ -1,0 +1,12 @@
+$1: repository
+
+> git clone https://github.com/a-lavoie/$1.git
+> git remote -v
+> git remote add upstream https://github.com/a-lavoie/$1.git
+> git remote -v
+> git checkout master
+> cp file ./
+> git merge upstream/master
+> git add .
+> git commit -m "My comments"
+> git push origin
