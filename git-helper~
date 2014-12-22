@@ -1,4 +1,0 @@
-$1: repository
-
-> git clone https://github.com/a-lavoie/$1.git
-> git 
